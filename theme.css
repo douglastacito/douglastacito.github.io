@@ -15,5 +15,6 @@ body {
 	text-align: center;
 }
 .sidebar ul li {
+	display: inline-block;
 	list-style: none;
 }

@@ -19,10 +19,12 @@ body {
 	list-style: none;
 }
 .sidebar ul li a {
+	display: inline-block;
+	padding: 5px 10px;
 	color: #333;
 	font-size: 20px;
 }
 .sidebar ul li a:hover {
-	color: #888;
+	color: rgba(100, 150, 250);
 	text-shadow: 0 0 2px #333;
 }

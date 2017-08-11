@@ -7,6 +7,11 @@ html,
 body {
 	font-family: "Ubuntu";
 }
+body {
+	background-image: url('background.png');
+	background-position: center;
+	background-size: 100% auto;
+}
 .row {
 	width: 80%;
 	margin: 0 auto;

@@ -6,6 +6,7 @@ body {
 	background-image: url('background.png');
 	background-position: center;
 	background-size: 100% auto;
+	background-attachment: fixed;
 }
 .row {
 	width: 80%;
@@ -19,7 +20,7 @@ body {
 .sidebar img {
 	width: 50%;
 	border-radius: 50%;
-	box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #666;
 }
 .sidebar h2 {
 	font-weight: normal;

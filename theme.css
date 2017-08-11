@@ -1,8 +1,3 @@
-img {
-	width: 50%;
-	border-radius: 50%;
-	box-shadow: 0 0 10px #333;
-}
 html,
 body {
 	font-family: "Ubuntu";
@@ -19,6 +14,14 @@ body {
 }
 .sidebar {
 	text-align: center;
+}
+.sidebar img {
+	width: 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #333;
+}
+.sidebar h2 {
+	font-weight: normal;
 }
 .sidebar ul {
 	padding: 0;

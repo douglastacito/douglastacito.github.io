@@ -27,3 +27,7 @@ body {
 .sidebar ul li a:hover {
 	color: rgba(50, 150, 250);
 }
+.sidebar span {
+	font-style: italic;
+	font-size: 10px;
+}

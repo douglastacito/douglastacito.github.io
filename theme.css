@@ -25,6 +25,5 @@ body {
 	font-size: 20px;
 }
 .sidebar ul li a:hover {
-	color: rgba(100, 150, 250);
-	text-shadow: 0 0 2px #333;
+	color: rgba(50, 150, 250);
 }

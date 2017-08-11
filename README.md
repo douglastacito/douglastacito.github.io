@@ -1,1 +1,0 @@
-# douglastacito.github.io

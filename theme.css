@@ -1,24 +1,32 @@
+* {
+	box-sizing: border-box;
+}
 html,
 body {
 	font-family: "Ubuntu";
+	font-size: 14px;
 }
 body {
 	background-image: url('https://douglastacito.github.io/img/pattern.gif');
-	background-position: center;
+	background-position: top;
 	background-attachment: fixed;
 }
 .row {
 	width: 80%;
 	margin: 0 auto
 }
-.navbar {
+.navbar .row {
 	background-color: #333;
 	color: #FFF;
+	padding: 0 25px;
 }
 .navbar h1,
 .navbar a {
 	font-size: 20px;
 	font-weight: 300;
+}
+.navbar a:hover {
+	color: rgb(50, 100, 250);
 }
 .navbar .social {
 	text-align: right;
@@ -28,43 +36,64 @@ body {
 	padding: 12px 5px;
 	color: #FFF;
 }
+.navbar form {
+	width: 100%;
+}
+.navbar form input {
+	width: 100%;
+	margin: 9px 5px;
+	padding: 5px 10px;
+	border: 1px solid #FFF;
+}
 
 .content .row {
+	background-color: #EEE;
+}
+.content .row .content {
+	padding: 15px 25px;
+	min-height: 700px;
+}
+
+.content .info {
+	display: flex;
+	flex: 0 0 auto;
+	padding: 15px;
+	border-radius: 3px;
 	background-color: #FFF;
 }
-.sidebar {
-	text-align: center;
-	padding: 50px 0;
+.content .info img {
+	width: 125px;
+	height: 125px;
 }
-.sidebar img {
-	width: 50%;
-	border-radius: 50%;
-	box-shadow: 0 0 10px #666;
-}
-.sidebar h2 {
-	font-weight: normal;
-}
-.sidebar ul {
-	padding: 0;
-}
-.sidebar ul li {
-	display: inline-block;
-	list-style: none;
-}
-.sidebar ul li a {
-	display: inline-block;
+.content .info section {
 	padding: 5px 10px;
+	flex-grow: 1;
+}
+.content .info section p {
+	margin-bottom: 0;
+}
+
+.content .sidebar nav {
+	margin-top: 25px;
+}
+.content .sidebar nav a {
+	display: inline-block;
+	border-left: 2px solid #333;
+	padding: 5px 10px;
+	margin-bottom: 3px;
+	text-decoration: none;
 	color: #333;
-	font-size: 20px;
 }
-.sidebar ul li a:hover {
-	color: rgba(50, 150, 250);
+.content .sidebar nav a:hover[href^="."] {
+	color: #007FFF;
+	border-left: 2px solid #007FFF;
 }
-.sidebar span {
+.content .sidebar nav a span {
+	display: block;
+	margin-top: 5px;
 	font-style: italic;
-	font-size: 14px;
 }
-.content h1 {
+h1 {
 	font-weight: normal;
 }
 #froala-editor {

@@ -15,6 +15,10 @@
 <body>
 
 	<div class="row">
+		<div class="col-xs-12 col-md-9 content">
+			<h1>Produção de conteúdos otimizados para motores de busca (SEO)</h1>
+			<p></p>
+		</div>
 		<div class="col-xs-12 col-md-3 sidebar">
 			<img src="profile.jpg">
 			<h2>Douglas Tácito</h2>
@@ -25,12 +29,17 @@
 			</ul>
 			<span>tacito.douglas@gmail.com</span>
 		</div>
-		<div class="col-xs-12 col-md-9 content">
-			<h1>Produção de conteúdos otimizados para motores de busca (SEO)</h1>
-			<p></p>
-		</div>
 	</div>
+	<div id="froala-editor">
+      <p>The buttons below will destroy and init the rich text editor again.</p>
+    </div>
 
+    <script>
+      $(function() {
+	    $('div#froala-editor').froalaEditor({
+	    })
+	  });
+    </script>
 	<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 </body>
 </html>

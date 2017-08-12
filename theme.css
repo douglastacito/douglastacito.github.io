@@ -76,15 +76,18 @@ body {
 .content .sidebar nav {
 	margin-top: 25px;
 }
+.content .sidebar nav h2,
 .content .sidebar nav a {
+	font-size: 14px;
 	display: inline-block;
 	border-left: 2px solid #333;
 	padding: 5px 10px;
+	margin-top: 0;
 	margin-bottom: 3px;
 	text-decoration: none;
 	color: #333;
 }
-.content .sidebar nav a:hover[href^="."] {
+.content .sidebar nav a:hover {
 	color: #007FFF;
 	border-left: 2px solid #007FFF;
 }

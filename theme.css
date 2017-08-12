@@ -99,6 +99,9 @@ body {
 h1 {
 	font-weight: normal;
 }
+#main-container {
+	text-align: justify;
+}
 #froala-editor {
 	width: 100%;
 }

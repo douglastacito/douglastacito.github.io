@@ -36,15 +36,13 @@
       <p>The buttons below will destroy and init the rich text editor again.</p>
     </div>
 
-    <script>
-      $(function() {
-	    $('div#froala-editor').froalaEditor({
-	    })
-	  });
-    </script>
 	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0//js/froala_editor.pkgd.min.js"></script>
+
+    <script>
+	$('#froala-editor').froalaEditor();
+    </script>
 </body>
 </html>

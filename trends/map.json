@@ -1,11 +1,6 @@
 {
 	"posts": [
 		{
-			"date": "12-08-2017 00:00",
-			"title": "Primeira postagem: novo projeto.",
-			"url": "primeira-postagem-novo-projeto"
-		},
-		{
 			"date": "12-08-2017 01:17",
 			"title": "Primeira postagem",
 			"url": "primeira-postagem"

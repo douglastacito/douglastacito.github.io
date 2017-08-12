@@ -3,15 +3,34 @@ body {
 	font-family: "Ubuntu";
 }
 body {
-	background-image: url('background.png');
+	background-image: url('https://douglastacito.github.io/img/pattern.gif');
 	background-position: center;
-	background-size: 100% auto;
 	background-attachment: fixed;
 }
 .row {
 	width: 80%;
-	margin: 0 auto;
-	padding: 50px 0;
+	margin: 0 auto
+}
+.navbar {
+	background-color: #333;
+	color: #FFF;
+}
+.navbar h1,
+.navbar a {
+	font-size: 20px;
+	font-weight: 300;
+}
+.navbar .social {
+	text-align: right;
+}
+.navbar a {
+	display: inline-block;
+	padding: 12px 5px;
+	color: #FFF;
+}
+
+.content .row {
+	background-color: #FFF;
 }
 .sidebar {
 	text-align: center;

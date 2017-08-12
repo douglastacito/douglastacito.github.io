@@ -48,3 +48,6 @@ body {
 .content h1 {
 	font-weight: normal;
 }
+#froala-editor {
+	width: 100%;
+}

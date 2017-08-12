@@ -5,6 +5,7 @@ html,
 body {
 	font-family: "Ubuntu";
 	font-size: 14px;
+	display: none;
 }
 body {
 	background-image: url('https://douglastacito.github.io/img/pattern.gif');
